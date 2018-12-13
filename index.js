@@ -17,10 +17,12 @@ module.exports = {
   globals: {
     window: false,
     document: false,
+    location: false,
     navigator: false
   },
 
   rules: {
+    'func-names': 0,
     'no-console': 0,
     'no-plusplus': 0,
     'arrow-parens': 0,
@@ -29,9 +31,11 @@ module.exports = {
     'prefer-template': 0,
     'consistent-return': 0,
     'no-param-reassign': 0,
+    'operator-linebreak': 0,
     'import/no-unresolved': 0,
     'object-curly-newline': 0,
     'no-unused-expressions': 0,
+    'max-len': ['error', { 'code': 150 }],
     'vue/no-v-html': 0,
     'vue/attributes-order': 0,
     'vue/require-v-for-key': 0,
