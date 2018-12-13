@@ -152,6 +152,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     'object-curly-spacing': [2, 'always', { objectsInObjects: false }],
     'array-bracket-spacing': [2, 'never'],
+    'vue/no-v-html': 0,
     'vue/attributes-order': 0,
     'vue/require-v-for-key': 0,
     'vue/require-default-prop': 0,
