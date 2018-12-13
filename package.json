@@ -1,0 +1,26 @@
+{
+  "name": "@vant/eslint-config",
+  "version": "0.0.1",
+  "description": "eslint config for vant",
+  "main": "index.js",
+  "scripts": {
+    "release": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youzan/vant-eslint-rules.git"
+  },
+  "author": "chenjiahan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/youzan/vant-eslint-rules/issues"
+  },
+  "homepage": "https://github.com/youzan/vant-eslint-rules#readme",
+  "peerDependencies": {
+    "eslint": "^5.9.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-plugin-vue": "^5.0.0"
+  }
+}
