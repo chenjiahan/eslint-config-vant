@@ -17,7 +17,6 @@ module.exports = {
   globals: {
     window: false,
     document: false,
-    location: false,
     navigator: false
   },
 
@@ -31,10 +30,12 @@ module.exports = {
     'prefer-template': 0,
     'consistent-return': 0,
     'no-param-reassign': 0,
+    'no-nested-ternary': 0,
     'operator-linebreak': 0,
     'import/no-unresolved': 0,
     'object-curly-newline': 0,
     'no-unused-expressions': 0,
+    'no-restricted-globals': 0,
     'max-len': ['error', { 'code': 150 }],
     'vue/no-v-html': 0,
     'vue/attributes-order': 0,
@@ -44,12 +45,6 @@ module.exports = {
     'vue/singleline-html-element-content-newline': 0,
     'vue/name-property-casing': ['error', 'kebab-case'],
     'vue/component-name-in-template-casing': ['error', 'kebab-case'],
-    'vue/html-closing-bracket-newline': [
-      'error',
-      {
-        singleline: 'never',
-        multiline: 'always'
-      }
-    ]
+    'vue/html-closing-bracket-newline': 2
   }
 };
