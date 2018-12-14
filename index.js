@@ -23,6 +23,7 @@ module.exports = {
   rules: {
     'no-new': 0,
     'no-shadow': 0,
+    'camelcase': 1,
     'no-bitwise': 0,
     'func-names': 0,
     'no-console': 0,
