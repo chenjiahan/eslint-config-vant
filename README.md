@@ -1,23 +1,23 @@
-# vant eslint rules
+# Eslint Config of Vant
 
 ## Install
 
 #### NPM
 
 ```shell
-npm i @vant/eslint-rules -D
+npm i @vant/eslint-config -D
 ```
 
 #### YARN
 
 ```shell
-yarn add @vant/eslint-rules --dev
+yarn add @vant/eslint-config --dev
 ```
 
 ## Usage
 
 ```js
 {
-  extends: ["plugin:@vant/eslint-rules/recommended"]
+  "extends": ["@vant"]
 }
 ```
