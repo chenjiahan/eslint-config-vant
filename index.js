@@ -21,6 +21,9 @@ module.exports = {
   },
 
   rules: {
+    'no-new': 0,
+    'no-shadow': 0,
+    'no-bitwise': 0,
     'func-names': 0,
     'no-console': 0,
     'no-plusplus': 0,
@@ -36,7 +39,10 @@ module.exports = {
     'object-curly-newline': 0,
     'no-unused-expressions': 0,
     'no-restricted-globals': 0,
-    'max-len': ['error', { 'code': 150 }],
+    'max-len': ['error', { code: 150 }],
+    'prefer-destructuring': ['error', { object: true, array: false }],
+    'import/prefer-default-export': 0,
+    'import/no-extraneous-dependencies': 0,
     'vue/no-v-html': 0,
     'vue/attributes-order': 0,
     'vue/require-v-for-key': 0,
