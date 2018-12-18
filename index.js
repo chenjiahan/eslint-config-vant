@@ -40,6 +40,7 @@ module.exports = {
     'object-curly-newline': 0,
     'no-unused-expressions': 0,
     'no-restricted-globals': 0,
+    'class-methods-use-this': 0,
     'max-len': ['error', { code: 150 }],
     'prefer-destructuring': ['error', { object: true, array: false }],
     'import/prefer-default-export': 0,
