@@ -38,6 +38,7 @@ module.exports = {
     'operator-linebreak': 0,
     'import/no-unresolved': 0,
     'object-curly-newline': 0,
+    'no-underscore-dangle': 1,
     'no-unused-expressions': 0,
     'no-restricted-globals': 0,
     'class-methods-use-this': 0,
