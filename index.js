@@ -2,10 +2,13 @@ module.exports = {
   extends: ['airbnb-base', 'plugin:vue/recommended'],
 
   parserOptions: {
-    parser: require.resolve('babel-eslint'),
+    parser: '@typescript-eslint/parser',
     ecmaVersion: 2018,
-    sourceType: 'module'
+    sourceType: 'module',
+    extraFileExtensions: ['.vue']
   },
+
+  plugins: ['@typescript-eslint'],
 
   env: {
     es6: true,
@@ -23,7 +26,7 @@ module.exports = {
   rules: {
     'no-new': 0,
     'no-shadow': 0,
-    'camelcase': 1,
+    camelcase: 1,
     'no-bitwise': 0,
     'func-names': 0,
     'no-console': 0,
@@ -31,6 +34,7 @@ module.exports = {
     'arrow-parens': 0,
     'comma-dangle': 0,
     'default-case': 0,
+    'no-unused-vars': 0,
     'prefer-template': 0,
     'consistent-return': 0,
     'no-param-reassign': 0,
@@ -40,8 +44,9 @@ module.exports = {
     'no-underscore-dangle': 1,
     'no-unused-expressions': 0,
     'no-restricted-globals': 0,
+    'function-paren-newline': 0,
     'class-methods-use-this': 0,
-    "implicit-arrow-linebreak": 0,
+    'implicit-arrow-linebreak': 0,
     'max-len': ['error', { code: 150 }],
     'prefer-destructuring': ['error', { object: true, array: false }],
     'import/no-unresolved': 0,
@@ -55,6 +60,12 @@ module.exports = {
     'vue/singleline-html-element-content-newline': 0,
     'vue/name-property-casing': ['error', 'kebab-case'],
     'vue/component-name-in-template-casing': ['error', 'kebab-case'],
-    'vue/html-closing-bracket-newline': 2
+    'vue/html-closing-bracket-newline': 2,
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      {
+        args: 'none'
+      }
+    ]
   }
 };
