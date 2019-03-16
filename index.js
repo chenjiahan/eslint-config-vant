@@ -49,6 +49,7 @@ module.exports = {
     'implicit-arrow-linebreak': 0,
     'max-len': ['error', { code: 150 }],
     'prefer-destructuring': ['error', { object: true, array: false }],
+    'import/order': 0,
     'import/no-unresolved': 0,
     'import/prefer-default-export': 0,
     'import/no-extraneous-dependencies': 0,
