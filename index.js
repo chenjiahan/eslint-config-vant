@@ -34,7 +34,6 @@ module.exports = {
     'arrow-parens': 0,
     'comma-dangle': 0,
     'default-case': 0,
-    'no-unused-vars': 0,
     'prefer-template': 0,
     'consistent-return': 0,
     'no-param-reassign': 0,
@@ -62,11 +61,6 @@ module.exports = {
     'vue/name-property-casing': ['error', 'kebab-case'],
     'vue/component-name-in-template-casing': ['error', 'kebab-case'],
     'vue/html-closing-bracket-newline': 2,
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      {
-        args: 'none'
-      }
-    ]
+    '@typescript-eslint/no-unused-vars': ['error']
   }
 };
