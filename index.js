@@ -46,6 +46,7 @@ module.exports = {
     'function-paren-newline': 0,
     'class-methods-use-this': 0,
     'implicit-arrow-linebreak': 0,
+    'space-before-function-paren': 0,
     'max-len': ['error', { code: 150 }],
     'prefer-destructuring': ['error', { object: true, array: false }],
     'import/order': 0,
